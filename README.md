@@ -40,4 +40,4 @@ API Endpoints Authentication Register User
 
 - DELETE /api/users/:id Headers: Authorization: Bearer (admin only) Success: 204 No Content Error: 404 Not Found Database Models User Fields: username, password, role Role Options: admin, user Task Fields: title, description, priority, status, assignedTo Priority Options: low, medium, high Status Options: pending, in-progress, completed Configuration Database: Update DB_URI in the .env file to point to your MongoDB instance. JWT Secret: Set JWT_SECRET in the .env file for token encryption. Running the Application Start the Server
 
-bash Copy code npm start The application will be accessible at http://localhost:3000.
+
